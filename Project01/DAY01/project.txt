@@ -72,8 +72,9 @@ httpserver模块
 项目工具推荐
 
 编写文档 ： word  ppt   excel  markdown  LaTex
-项目流程图 ： Mindmanage  Xmind   Visio
-项目管理： project
+项目流程图 ： Mindmanage  Xmind  #思维导图
+                Visio　　　　　　　　　　　＃流程图
+项目管理： project＃甘特图
 代码管理： git  svn
 编译工具： pycharm  vim  Webstream  eclipse  vscode
 
