@@ -1,163 +1,163 @@
-ÏîÄ¿Á·Ï°
+ï»¿é¡¹ç›®ç»ƒä¹ 
 
-ÏîÄ¿µÄ×¢ÒâÊÂÏîºÍ¿ª·¢Á÷³Ì
-ÏîÄ¿¹¤¾ßµÄ½éÉÜºÍÍÆ¼ö
+é¡¹ç›®çš„æ³¨æ„äº‹é¡¹å’Œå¼€å‘æµç¨‹
+é¡¹ç›®å·¥å…·çš„ä»‹ç»å’ŒæŽ¨è
 
-µç×Ó´ÊµäÏîÄ¿
-httpserver + framework µÚÈý°æ
+ç”µå­è¯å…¸é¡¹ç›®
+httpserver + framework ç¬¬ä¸‰ç‰ˆ
 
-pipµÄÊ¹ÓÃ
-pdbµ÷ÊÔ
-httpserverÄ£¿é
+pipçš„ä½¿ç”¨
+pdbè°ƒè¯•
+httpserveræ¨¡å—
 
 
 
-Ê²Ã´ÊÇÏîÄ¿ £º ÓÐÒ»¶¨µÄÍêÕûÐÔ¹¦ÄÜµÄ´úÂë¼¯ºÏ
+ä»€ä¹ˆæ˜¯é¡¹ç›® ï¼š æœ‰ä¸€å®šçš„å®Œæ•´æ€§åŠŸèƒ½çš„ä»£ç é›†åˆ
 
-Èí¼þÏîÄ¿¿ª·¢Á÷³Ì
+è½¯ä»¶é¡¹ç›®å¼€å‘æµç¨‹
 
-ÐèÇó·ÖÎö --¡· ¸ÅÒªÉè¼Æ --¡·ÏîÄ¿¹æ»® --¡· ÏêÏ¸Éè¼Æ 
-                                     --¡· ±àÂë²âÊÔ 
---¡· ÏîÄ¿¹¦ÄÜ²âÊÔ --¡· µ÷ÊÔÍêÉÆ --¡· ÏîÄ¿·¢²¼ 
---¡·ºóÆÚÎ¬»¤
+éœ€æ±‚åˆ†æž --ã€‹ æ¦‚è¦è®¾è®¡ --ã€‹é¡¹ç›®è§„åˆ’ --ã€‹ è¯¦ç»†è®¾è®¡ 
+                                     --ã€‹ ç¼–ç æµ‹è¯• 
+--ã€‹ é¡¹ç›®åŠŸèƒ½æµ‹è¯• --ã€‹ è°ƒè¯•å®Œå–„ --ã€‹ é¡¹ç›®å‘å¸ƒ 
+--ã€‹åŽæœŸç»´æŠ¤
 
-ÐèÇó·ÖÎö £º È·¶¨ÓÃ»§µÄÕæÊµÏîÄ¿ÐèÇó
+éœ€æ±‚åˆ†æž ï¼š ç¡®å®šç”¨æˆ·çš„çœŸå®žé¡¹ç›®éœ€æ±‚
 
-1. È·¶¨ÓÃ»§µÄÕæÊµÐèÇó£¬ÏîÄ¿µÄ»ù±¾¹¦ÄÜ
-2. È·¶¨ÏîÄ¿µÄÕûÌåÄÑ¶ÈºÍ¿ÉÐÐÐÔ·ÖÎö
-3. ÐèÇó·ÖÎöÎÄµµ£¬ÓÃ»§È·ÈÏ
+1. ç¡®å®šç”¨æˆ·çš„çœŸå®žéœ€æ±‚ï¼Œé¡¹ç›®çš„åŸºæœ¬åŠŸèƒ½
+2. ç¡®å®šé¡¹ç›®çš„æ•´ä½“éš¾åº¦å’Œå¯è¡Œæ€§åˆ†æž
+3. éœ€æ±‚åˆ†æžæ–‡æ¡£ï¼Œç”¨æˆ·ç¡®è®¤
 
-¸ÅÒªÉè¼Æ £º ¶ÔÏîÄ¿ÕûÌå½øÐÐ·ÖÎö£¬È·¶¨³õ²½µÄ¼¼Êõ·½Ïò
+æ¦‚è¦è®¾è®¡ ï¼š å¯¹é¡¹ç›®æ•´ä½“è¿›è¡Œåˆ†æžï¼Œç¡®å®šåˆæ­¥çš„æŠ€æœ¯æ–¹å‘
 
-1. È·¶¨ÕûÌå¼Ü¹¹
-2. È·¶¨¹¦ÄÜÄ£¿é
-3. ¹æ»®Ê¹ÓÃ¼¼Êõ£¬¶Ô¼¼Êõ¿ÉÐÐÐÔ·ÖÎö
-4. ±àÐ´ÏîÄ¿µÄ¿ª·¢Á÷³ÌÍ¼ºÍ¸ÅÒªÉè¼ÆÎÄµµ
+1. ç¡®å®šæ•´ä½“æž¶æž„
+2. ç¡®å®šåŠŸèƒ½æ¨¡å—
+3. è§„åˆ’ä½¿ç”¨æŠ€æœ¯ï¼Œå¯¹æŠ€æœ¯å¯è¡Œæ€§åˆ†æž
+4. ç¼–å†™é¡¹ç›®çš„å¼€å‘æµç¨‹å›¾å’Œæ¦‚è¦è®¾è®¡æ–‡æ¡£
 
-ÏîÄ¿¹æ»®: È·¶¨ÏîÄ¿¿ª·¢Ê±ÏÞ£¬Ê±¼ä½Úµã£¬ÖØÒªÀï³Ì±®
+é¡¹ç›®è§„åˆ’: ç¡®å®šé¡¹ç›®å¼€å‘æ—¶é™ï¼Œæ—¶é—´èŠ‚ç‚¹ï¼Œé‡è¦é‡Œç¨‹ç¢‘
 
-1. È·¶¨¿ª·¢µÄÏÈºóË³Ðò
-2. È·¶¨Ê±¼äÖáºÍÀï³Ì±®
-3. ÈËÔ±µÄ·Ö¹¤ºÏ×÷
-4. ÐÎ³É¸ÊÌØÍ¼ºÍË¼Î¬µ¼Í¼
+1. ç¡®å®šå¼€å‘çš„å…ˆåŽé¡ºåº
+2. ç¡®å®šæ—¶é—´è½´å’Œé‡Œç¨‹ç¢‘
+3. äººå‘˜çš„åˆ†å·¥åˆä½œ
+4. å½¢æˆç”˜ç‰¹å›¾å’Œæ€ç»´å¯¼å›¾
 
-ÏêÏ¸Éè¼ÆºÍÏîÄ¿±àÂë
+è¯¦ç»†è®¾è®¡å’Œé¡¹ç›®ç¼–ç 
 
-1. Ð´´úÂë£¬°üÀ¨Êý¾Ý¿â ÍøÂç»·¾³µÈ
-2. ¼¼Êõ¹¥¹Ø
-3. Íê³ÉÏêÏ¸Éè¼ÆÎÄµµ
-   Ë¼Â·£¬¼¼ÊõËµÃ÷£¬´úÂëËµÃ÷£¬Êý¾Ý½á¹¹ËµÃ÷£¬»·¾³Ô¼ÊøµÈµÈ
-4. ´úÂëµÄ×ÔÎÒ¼ì²â
+1. å†™ä»£ç ï¼ŒåŒ…æ‹¬æ•°æ®åº“ ç½‘ç»œçŽ¯å¢ƒç­‰
+2. æŠ€æœ¯æ”»å…³
+3. å®Œæˆè¯¦ç»†è®¾è®¡æ–‡æ¡£
+   æ€è·¯ï¼ŒæŠ€æœ¯è¯´æ˜Žï¼Œä»£ç è¯´æ˜Žï¼Œæ•°æ®ç»“æž„è¯´æ˜Žï¼ŒçŽ¯å¢ƒçº¦æŸç­‰ç­‰
+4. ä»£ç çš„è‡ªæˆ‘æ£€æµ‹
 
-ÏîÄ¿²âÊÔ
+é¡¹ç›®æµ‹è¯•
 
-1. Íê³ÉÏîÄ¿²âÊÔ
-2. ±àÐ´²âÊÔ±¨¸æ
-3. ÏîÄ¿ÍêÉÆ
+1. å®Œæˆé¡¹ç›®æµ‹è¯•
+2. ç¼–å†™æµ‹è¯•æŠ¥å‘Š
+3. é¡¹ç›®å®Œå–„
 
-ÏîÄ¿·¢²¼
-1. ÏîÄ¿²¿ÊðÌá½»¸øÓÐÓÃ»§Ê¹ÓÃ
-2. Íê³ÉÏîÄ¿ËµÃ÷ÎÄµµ
+é¡¹ç›®å‘å¸ƒ
+1. é¡¹ç›®éƒ¨ç½²æäº¤ç»™æœ‰ç”¨æˆ·ä½¿ç”¨
+2. å®Œæˆé¡¹ç›®è¯´æ˜Žæ–‡æ¡£
 
-ºóÆÚÎ¬»¤Éý¼¶
-1. ÏîÄ¿µÄÎ¬»¤
-2. ÏîÄ¿Éý¼¶
+åŽæœŸç»´æŠ¤å‡çº§
+1. é¡¹ç›®çš„ç»´æŠ¤
+2. é¡¹ç›®å‡çº§
 
-×¢ÒâÊÂÏî
-1. °´Ê±Íê³ÉÏîÄ¿ÊÇÊ×Òª¹¤×÷
-2. ÓÐ¹æ»®ÊµÊ©»áÊÂ°ë¹¦±¶
-3. ¼°Ê±½â¾öÏîÄ¿³åÍ»
-4. ÇÐ¼É×·ÇóÍêÃÀ£¬ÏÈÍê³É»ù±¾¹¦ÄÜÔÙÍêÉÆ
+æ³¨æ„äº‹é¡¹
+1. æŒ‰æ—¶å®Œæˆé¡¹ç›®æ˜¯é¦–è¦å·¥ä½œ
+2. æœ‰è§„åˆ’å®žæ–½ä¼šäº‹åŠåŠŸå€
+3. åŠæ—¶è§£å†³é¡¹ç›®å†²çª
+4. åˆ‡å¿Œè¿½æ±‚å®Œç¾Žï¼Œå…ˆå®ŒæˆåŸºæœ¬åŠŸèƒ½å†å®Œå–„
 
-ÏîÄ¿¹¤¾ßÍÆ¼ö
+é¡¹ç›®å·¥å…·æŽ¨è
 
-±àÐ´ÎÄµµ £º word  ppt   excel  markdown  LaTex
-ÏîÄ¿Á÷³ÌÍ¼ £º Mindmanage  Xmind   Visio
-ÏîÄ¿¹ÜÀí£º project
-´úÂë¹ÜÀí£º git  svn
-±àÒë¹¤¾ß£º pycharm  vim  Webstream  eclipse  vscode
+ç¼–å†™æ–‡æ¡£ ï¼š word  ppt   excel  markdown  LaTex
+é¡¹ç›®æµç¨‹å›¾ ï¼š Mindmanage  Xmind   Visio
+é¡¹ç›®ç®¡ç†ï¼š project
+ä»£ç ç®¡ç†ï¼š git  svn
+ç¼–è¯‘å·¥å…·ï¼š pycharm  vim  Webstream  eclipse  vscode
 
-µç×Ó´Êµä
+ç”µå­è¯å…¸
 
-¹¦ÄÜËµÃ÷£º
-1. ÓÃ»§¿ÉÒÔµÇÂ¼ºÍ×¢²á
-   µÇÂ¼Æ¾½èÓÃ»§ÃûÃÜÂë¼´¿É
-   ×¢²áÒªÇóÓÃ»§±ØÐëÌîÐ´ÓÃ»§ÃûºÍÃÜÂëÆäËûÄÚÈÝ×Ô¶¨
-   ÓÃ»§ÃûÒªÇó²»ÄÜ¹»ÖØ¸´
+åŠŸèƒ½è¯´æ˜Žï¼š
+1. ç”¨æˆ·å¯ä»¥ç™»å½•å’Œæ³¨å†Œ
+   ç™»å½•å‡­å€Ÿç”¨æˆ·åå¯†ç å³å¯
+   æ³¨å†Œè¦æ±‚ç”¨æˆ·å¿…é¡»å¡«å†™ç”¨æˆ·åå’Œå¯†ç å…¶ä»–å†…å®¹è‡ªå®š
+   ç”¨æˆ·åè¦æ±‚ä¸èƒ½å¤Ÿé‡å¤
 
-2. ÓÃ»§Êý¾ÝÒªÇóÊ¹ÓÃÊý¾Ý¿â³¤ÆÚ±£´æ
-   Êý¾Ý±¨×Ô¶¨
+2. ç”¨æˆ·æ•°æ®è¦æ±‚ä½¿ç”¨æ•°æ®åº“é•¿æœŸä¿å­˜
+   æ•°æ®æŠ¥è‡ªå®š
 
-3. ÄÜ¹»Âú×ã¶à¸öÓÃ»§Í¬Ê±µÇÂ½²Ù×÷µÄÐèÇó
+3. èƒ½å¤Ÿæ»¡è¶³å¤šä¸ªç”¨æˆ·åŒæ—¶ç™»é™†æ“ä½œçš„éœ€æ±‚
 
-4. ¹¦ÄÜ·ÖÎª¿Í»§µ¥ºÍ·þÎñ¶Ë£¬¿Í»§µ¥Ö÷Òª·¢ÆðÇëÇó£¬·þÎñ    ¶Ë´¦ÀíÇëÇó£¬ÓÃ»§Æô¶¯¿Í»§¶Ë¼´½øÈëÒ»¼¶½çÃæ
-     µÇÂ½   ×¢²á   ÍË³ö
-5. ÓÃ»§µÇÂ¼ºó¼´½øÈë¶þ¼¶½çÃæ
-     ²éµ¥´Ê   ²é¿´ÀúÊ·¼ÇÂ¼   ÍË³ö
-         µ¥´Ê±¾ £º Ã¿ÐÐÒ»¸öµ¥´Ê
-	           µ¥´ÊºÍ½âÊÍÖ®¼äÒ»¶¨ÓÐ¿Õ¸ñ
-		   ºóÃæµÄµ¥´ÊÒ»¶¨±ÈÇ°ÃæµÄ´ó
+4. åŠŸèƒ½åˆ†ä¸ºå®¢æˆ·å•å’ŒæœåŠ¡ç«¯ï¼Œå®¢æˆ·å•ä¸»è¦å‘èµ·è¯·æ±‚ï¼ŒæœåŠ¡    ç«¯å¤„ç†è¯·æ±‚ï¼Œç”¨æˆ·å¯åŠ¨å®¢æˆ·ç«¯å³è¿›å…¥ä¸€çº§ç•Œé¢
+     ç™»é™†   æ³¨å†Œ   é€€å‡º
+5. ç”¨æˆ·ç™»å½•åŽå³è¿›å…¥äºŒçº§ç•Œé¢
+     æŸ¥å•è¯   æŸ¥çœ‹åŽ†å²è®°å½•   é€€å‡º
+         å•è¯æœ¬ ï¼š æ¯è¡Œä¸€ä¸ªå•è¯
+	           å•è¯å’Œè§£é‡Šä¹‹é—´ä¸€å®šæœ‰ç©ºæ ¼
+		   åŽé¢çš„å•è¯ä¸€å®šæ¯”å‰é¢çš„å¤§
 
-     ²éµ¥´Ê £º ÊäÈëµ¥´Ê£¬ÏÔÊ¾µ¥´ÊÒâË¼£¬¿ÉÒÔÑ­»·²éÑ¯¡£ÊäÈë ## ±íÊ¾ÍË³ö²é´Ê
+     æŸ¥å•è¯ ï¼š è¾“å…¥å•è¯ï¼Œæ˜¾ç¤ºå•è¯æ„æ€ï¼Œå¯ä»¥å¾ªçŽ¯æŸ¥è¯¢ã€‚è¾“å…¥ ## è¡¨ç¤ºé€€å‡ºæŸ¥è¯
 
-     ²é¿´ÀúÊ·¼ÇÂ¼£º ²é¿´µ±Ç°ÓÃ»§µÄÀúÊ·²é´Ê¼ÇÂ¼
+     æŸ¥çœ‹åŽ†å²è®°å½•ï¼š æŸ¥çœ‹å½“å‰ç”¨æˆ·çš„åŽ†å²æŸ¥è¯è®°å½•
         name     word    time
       
-     ÍË³ö £º ÍË³öµ½Ò»¼¶½çÃæ£¬Ïàµ±ÓÚ×¢Ïú
+     é€€å‡º ï¼š é€€å‡ºåˆ°ä¸€çº§ç•Œé¢ï¼Œç›¸å½“äºŽæ³¨é”€
 
 
-1. È·¶¨¼¼Êõµã
-   Ê²Ã´²¢·¢£¬Ê²Ã´Ì×½Ó×Ö  Ê²Ã´Êý¾Ý¿â£¿  
-   ÎÄ¼þ´¦Àí»¹ÊÇÊý¾Ý¿â²éÑ¯£¿ 
-   Èç¹ûÊÇÊý¾Ý¿â²éÑ¯ÈçºÎ½«µ¥´Ê´æÈëÊý¾Ý¿â
+1. ç¡®å®šæŠ€æœ¯ç‚¹
+   ä»€ä¹ˆå¹¶å‘ï¼Œä»€ä¹ˆå¥—æŽ¥å­—  ä»€ä¹ˆæ•°æ®åº“ï¼Ÿ  
+   æ–‡ä»¶å¤„ç†è¿˜æ˜¯æ•°æ®åº“æŸ¥è¯¢ï¼Ÿ 
+   å¦‚æžœæ˜¯æ•°æ®åº“æŸ¥è¯¢å¦‚ä½•å°†å•è¯å­˜å…¥æ•°æ®åº“
    
 
-2. ½¨Á¢Êý¾Ý±í
-   ½¨Á¢¼¸¸ö±í  Ã¿¸ö±í½á¹¹  ±í¹ØÏµ
+2. å»ºç«‹æ•°æ®è¡¨
+   å»ºç«‹å‡ ä¸ªè¡¨  æ¯ä¸ªè¡¨ç»“æž„  è¡¨å…³ç³»
 	
-   3     ÓÃ»§ÐÅÏ¢     ÀúÊ·¼ÇÂ¼        ´æµ¥´Ê  
+   3     ç”¨æˆ·ä¿¡æ¯     åŽ†å²è®°å½•        å­˜å•è¯  
    
-         ×¢²á         ²éÑ¯ÀúÊ·¼ÇÂ¼    ²éµ¥´Ê
-	 µÇÂ¼         ²éµ¥´Ê
+         æ³¨å†Œ         æŸ¥è¯¢åŽ†å²è®°å½•    æŸ¥å•è¯
+	 ç™»å½•         æŸ¥å•è¯
          
 
-3. ÏîÄ¿·ÖÎö ·ÂÕÕftpºÍÁÄÌìÊÒ½øÐÐÏîÄ¿·ÖÎö
+3. é¡¹ç›®åˆ†æž ä»¿ç…§ftpå’ŒèŠå¤©å®¤è¿›è¡Œé¡¹ç›®åˆ†æž
 
-4. ´î½¨Í¨ÐÅ¿ò¼Ü
+4. æ­å»ºé€šä¿¡æ¡†æž¶
 
-5. ·ÖÎöÓÐ¼¸¸ö¹¦ÄÜ£¬ÈçºÎ·â×°£¬Ã¿¸ö¹¦ÄÜ¾ßÌåÊµÏÖÊ²Ã´ÄÚ    ÈÝ
+5. åˆ†æžæœ‰å‡ ä¸ªåŠŸèƒ½ï¼Œå¦‚ä½•å°è£…ï¼Œæ¯ä¸ªåŠŸèƒ½å…·ä½“å®žçŽ°ä»€ä¹ˆå†…    å®¹
 
-¸´Ï°
+å¤ä¹ 
 
-git ·ÖÖ§²Ù×÷
-git Ô¶³Ì²Ù×÷
-github Ê¹ÓÃ
+git åˆ†æ”¯æ“ä½œ
+git è¿œç¨‹æ“ä½œ
+github ä½¿ç”¨
 
-ÏîÄ¿»ù´¡
-   ÏîÄ¿¿ª·¢Á÷³Ì
-   ÏîÄ¿µÄ×¢ÒâÊÂÏî
+é¡¹ç›®åŸºç¡€
+   é¡¹ç›®å¼€å‘æµç¨‹
+   é¡¹ç›®çš„æ³¨æ„äº‹é¡¹
 
-µç×Ó´Êµä
+ç”µå­è¯å…¸
 
 
 
-ÏîÄ¿·ÖÎö
+é¡¹ç›®åˆ†æž
 
-·þÎñÆ÷ £º µÇÂ¼  ×¢²á   ²é´Ê   ÀúÊ·¼ÇÂ¼
+æœåŠ¡å™¨ ï¼š ç™»å½•  æ³¨å†Œ   æŸ¥è¯   åŽ†å²è®°å½•
 
-¿Í»§¶Ë £º ´òÓ¡½çÃæ   ·¢³öÇëÇó    ½ÓÊÕ·´À¡   ´òÓ¡½á¹û
+å®¢æˆ·ç«¯ ï¼š æ‰“å°ç•Œé¢   å‘å‡ºè¯·æ±‚    æŽ¥æ”¶åé¦ˆ   æ‰“å°ç»“æžœ
 
-¼¼Êõµã :   ²¢·¢   sys.fork
-           Ì×½Ó×Ö  tcp Ì×½Ó×Ö
-	   Êý¾Ý¿â  mysql
-	   ²é´Ê    ÎÄ±¾
+æŠ€æœ¯ç‚¹ :   å¹¶å‘   sys.fork
+           å¥—æŽ¥å­—  tcp å¥—æŽ¥å­—
+	   æ•°æ®åº“  mysql
+	   æŸ¥è¯    æ–‡æœ¬
 
-¹¤×÷Á÷³Ì£º ´´½¨Êý¾Ý¿â£¬´æ´¢Êý¾Ý ---¡· ´î½¨Í¨ÐÅ¿ò¼Ü£¬            ½¨Á¢²¢·¢¹ØÏµ---¡·ÊµÏÖ¾ßÌå¹¦ÄÜ·â×°
+å·¥ä½œæµç¨‹ï¼š åˆ›å»ºæ•°æ®åº“ï¼Œå­˜å‚¨æ•°æ® ---ã€‹ æ­å»ºé€šä¿¡æ¡†æž¶ï¼Œ            å»ºç«‹å¹¶å‘å…³ç³»---ã€‹å®žçŽ°å…·ä½“åŠŸèƒ½å°è£…
 
-1. ´´½¨Êý¾Ý¿â´æ´¢Êý¾Ý
+1. åˆ›å»ºæ•°æ®åº“å­˜å‚¨æ•°æ®
    dict
 
-   user £º id  name   passwd
+   user ï¼š id  name   passwd
    hist :  id  name   word   time
    words : id  word   interpret
 
@@ -169,150 +169,150 @@ github Ê¹ÓÃ
    
    create table words (id int auto_increment primary key,word varchar(32) not null,interpret text not null);
 
-2. ´î½¨»ù±¾¿ò¼Ü
+2. æ­å»ºåŸºæœ¬æ¡†æž¶
    
-   ·þÎñÆ÷  ´´½¨Ì×½Ó×Ö ---¡· ´´½¨¸¸×Ó½ø³Ì --¡· ×Ó½ø³Ì         µÈ´ý´¦Àí¿Í»§µ¥¶ËÇëÇó--¡·¸¸½ø³Ì¼ÌÐø½ÓÊÕÏÂ         Ò»¸ö¿Í»§¶ËÁ¬½Ó
+   æœåŠ¡å™¨  åˆ›å»ºå¥—æŽ¥å­— ---ã€‹ åˆ›å»ºçˆ¶å­è¿›ç¨‹ --ã€‹ å­è¿›ç¨‹         ç­‰å¾…å¤„ç†å®¢æˆ·å•ç«¯è¯·æ±‚--ã€‹çˆ¶è¿›ç¨‹ç»§ç»­æŽ¥æ”¶ä¸‹         ä¸€ä¸ªå®¢æˆ·ç«¯è¿žæŽ¥
 
-   ¿Í»§¶Ë  ´´½¨Ì×½Ó×Ö --¡··¢ÆðÁ¬½ÓÇëÇó --¡·Ò»¼¶½çÃæ         --¡·ÇëÇó£¨µÇÂ¼£¬×¢²á£¬ÍË³ö£©--¡·µÇÂ¼³É¹¦         ½øÈë¶þ¼¶½çÃæ--¡·ÇëÇó£¨²é´Ê£¬ÀúÊ·¼ÇÂ¼£©
+   å®¢æˆ·ç«¯  åˆ›å»ºå¥—æŽ¥å­— --ã€‹å‘èµ·è¿žæŽ¥è¯·æ±‚ --ã€‹ä¸€çº§ç•Œé¢         --ã€‹è¯·æ±‚ï¼ˆç™»å½•ï¼Œæ³¨å†Œï¼Œé€€å‡ºï¼‰--ã€‹ç™»å½•æˆåŠŸ         è¿›å…¥äºŒçº§ç•Œé¢--ã€‹è¯·æ±‚ï¼ˆæŸ¥è¯ï¼ŒåŽ†å²è®°å½•ï¼‰
 
-3. ¹¦ÄÜÊµÏÖ
-   ×¢²á   
-      ¿Í»§¶Ë
-         1. ÊäÈë×¢²áÐÅÏ¢
-	 2. ½«×¢²áÐÅÏ¢·¢ËÍ¸ø·þÎñÆ÷
-	 3. µÃµ½·þÎñÆ÷·´À¡
+3. åŠŸèƒ½å®žçŽ°
+   æ³¨å†Œ   
+      å®¢æˆ·ç«¯
+         1. è¾“å…¥æ³¨å†Œä¿¡æ¯
+	 2. å°†æ³¨å†Œä¿¡æ¯å‘é€ç»™æœåŠ¡å™¨
+	 3. å¾—åˆ°æœåŠ¡å™¨åé¦ˆ
 
-      ·þÎñ¶Ë
-         1. ½ÓÊÕÇëÇó
-	 2. ÅÐ¶ÏÊÇ·ñÔÊÐí×¢²á
-	 3. ½«½á¹û·´À¡¸ø¿Í»§¶Ë
-	 4. ×¢²áÐÅÏ¢²åÈëÊý¾Ý¿â
+      æœåŠ¡ç«¯
+         1. æŽ¥æ”¶è¯·æ±‚
+	 2. åˆ¤æ–­æ˜¯å¦å…è®¸æ³¨å†Œ
+	 3. å°†ç»“æžœåé¦ˆç»™å®¢æˆ·ç«¯
+	 4. æ³¨å†Œä¿¡æ¯æ’å…¥æ•°æ®åº“
 
 cookie
 
  import  getpass
  
  passwd = getpass.getpass()
- ¹¦ÄÜ £º Òþ²ØÃÜÂëÊäÈë
+ åŠŸèƒ½ ï¼š éšè—å¯†ç è¾“å…¥
 
 
-×÷Òµ £º 1. µç×Ó´ÊµäÏîÄ¿ ÔÙ¹ýÒ»ÏÂÁ÷³Ì
-        2. ¸´Ï°httpserver µÚ¶þ°æ
-	3. ½«µç×Ó´ÊµäÉÏ´«µ½github
+ä½œä¸š ï¼š 1. ç”µå­è¯å…¸é¡¹ç›® å†è¿‡ä¸€ä¸‹æµç¨‹
+        2. å¤ä¹ httpserver ç¬¬äºŒç‰ˆ
+	3. å°†ç”µå­è¯å…¸ä¸Šä¼ åˆ°github
 
-¸´Ï°£º
+å¤ä¹ ï¼š
 
-µç×Ó´Êµä¿ª·¢Á÷³Ì
-   1. ¸ù¾ÝÐèÇóÉè¼Æ¿ò¼Ü
-   2. Ö¸¶¨¹¤×÷Á÷³Ì
-   3. Íê³É¼¼Êõµã×Ü½áºÍÉè¼Æ
-   4. Íê³ÉÊý¾Ý¿âÉè¼Æ
-   5. ´î½¨Í¨ÐÅ¿ò¼Ü
-   6. Íê³É¾ßÌå¹¦ÄÜÉè¼Æ
-   7. ±àÂëÊµÏÖ
+ç”µå­è¯å…¸å¼€å‘æµç¨‹
+   1. æ ¹æ®éœ€æ±‚è®¾è®¡æ¡†æž¶
+   2. æŒ‡å®šå·¥ä½œæµç¨‹
+   3. å®ŒæˆæŠ€æœ¯ç‚¹æ€»ç»“å’Œè®¾è®¡
+   4. å®Œæˆæ•°æ®åº“è®¾è®¡
+   5. æ­å»ºé€šä¿¡æ¡†æž¶
+   6. å®Œæˆå…·ä½“åŠŸèƒ½è®¾è®¡
+   7. ç¼–ç å®žçŽ°
    
 
-PIPµÄÊ¹ÓÃ
+PIPçš„ä½¿ç”¨
 
-×÷ÓÃ £º ¹ÜÀípythonµÄ±ê×¼µÚÈý·½¿âÖÐµÚÈý·½Èí¼þ°ü
+ä½œç”¨ ï¼š ç®¡ç†pythonçš„æ ‡å‡†ç¬¬ä¸‰æ–¹åº“ä¸­ç¬¬ä¸‰æ–¹è½¯ä»¶åŒ…
 
-°²×°£º sudo apt-get install python3-pip
+å®‰è£…ï¼š sudo apt-get install python3-pip
 
-³£ÓÃÃüÁî£º
+å¸¸ç”¨å‘½ä»¤ï¼š
 
-    °²×°Èí¼þ£º pip3  install  [package]
+    å®‰è£…è½¯ä»¶ï¼š pip3  install  [package]
 
       e.g.   sudo  pip3 install  ssh
 
-    ²é¿´µ±Ç°pythonÈí¼þ°ü £º pip3 list
+    æŸ¥çœ‹å½“å‰pythonè½¯ä»¶åŒ… ï¼š pip3 list
 
-    ËÑË÷Ä³¸öÃû×ÖµÄpython°ü£ºpip3 search  [name]
+    æœç´¢æŸä¸ªåå­—çš„pythonåŒ…ï¼špip3 search  [name]
 
-    ²é¿´Èí¼þ°üÐÅÏ¢£ºpip3  show  [package]
+    æŸ¥çœ‹è½¯ä»¶åŒ…ä¿¡æ¯ï¼špip3  show  [package]
     
-    Éý¼¶Èí¼þ°ü£º pip3 install --upgrade [package]
+    å‡çº§è½¯ä»¶åŒ…ï¼š pip3 install --upgrade [package]
 
-    Ð¶ÔØÈí¼þ°ü£º sudo pip3  uninstall  [package]  
+    å¸è½½è½¯ä»¶åŒ…ï¼š sudo pip3  uninstall  [package]  
         e.g.  sudo pip3 uninstall ssh
     
-    µ¼³öÈí¼þ°ü»·¾³£ºpip3 freeze > requirements.txt
+    å¯¼å‡ºè½¯ä»¶åŒ…çŽ¯å¢ƒï¼špip3 freeze > requirements.txt
     
-    ¸ù¾ÝÎÄµµ×Ô¶¯°²×°:pip3 install -r requirements.txt
+    æ ¹æ®æ–‡æ¡£è‡ªåŠ¨å®‰è£…:pip3 install -r requirements.txt
 
 
-PDBµ÷ÊÔ·½·¨
+PDBè°ƒè¯•æ–¹æ³•
 
 import  pdb 
 
-¹¦ÄÜ £º ¶ÏµãÉèÖÃ£¬µ¥²½Ö´ÐÐ£¬ ²é¿´´úÂë£¬²é¿´º¯Êý£¬×·         ×Ù±äÁ¿µÈ
+åŠŸèƒ½ ï¼š æ–­ç‚¹è®¾ç½®ï¼Œå•æ­¥æ‰§è¡Œï¼Œ æŸ¥çœ‹ä»£ç ï¼ŒæŸ¥çœ‹å‡½æ•°ï¼Œè¿½         è¸ªå˜é‡ç­‰
     
-ÃüÁî£º
-  b  break     ÉèÖÃ¶Ïµã
-  c  continue   ¼ÌÐøÖ´ÐÐ
-  n  next     µ¥²½Ö´ÐÐ
-  s  step     µ¥²½Ö´ÐÐ£¬¿ÉÒÔ½øÈëº¯ÊýÄÚ²¿
-  l  list     ²é¿´´úÂë¶Î
-  pp          ²é¿´Ä³¸ö±äÁ¿Öµ
-  help        °ïÖú
-  exit        ÍË³öpdbµ÷ÊÔ
+å‘½ä»¤ï¼š
+  b  break     è®¾ç½®æ–­ç‚¹
+  c  continue   ç»§ç»­æ‰§è¡Œ
+  n  next     å•æ­¥æ‰§è¡Œ
+  s  step     å•æ­¥æ‰§è¡Œï¼Œå¯ä»¥è¿›å…¥å‡½æ•°å†…éƒ¨
+  l  list     æŸ¥çœ‹ä»£ç æ®µ
+  pp          æŸ¥çœ‹æŸä¸ªå˜é‡å€¼
+  help        å¸®åŠ©
+  exit        é€€å‡ºpdbè°ƒè¯•
 
-½øÈëpdbµ÷ÊÔÄ£Ê½£º pdb.set_trace() 
+è¿›å…¥pdbè°ƒè¯•æ¨¡å¼ï¼š pdb.set_trace() 
  
-Ö±½Ó½øÈëPDBµ÷ÊÔÄ£Ê½ÔËÐÐ £º python3 -m pdb debug.py 
+ç›´æŽ¥è¿›å…¥PDBè°ƒè¯•æ¨¡å¼è¿è¡Œ ï¼š python3 -m pdb debug.py 
 
 
 httpserver
 
-Ç°Ì¨   Ç°¶Ë   ¿Í»§µ¥   ÓÃ»§¶Ë
+å‰å°   å‰ç«¯   å®¢æˆ·å•   ç”¨æˆ·ç«¯
 
-¹¦ÄÜ £º Ìá¹©¸øÓÃ»§Ö±½ÓÊ¹ÓÃ
+åŠŸèƒ½ ï¼š æä¾›ç»™ç”¨æˆ·ç›´æŽ¥ä½¿ç”¨
 
-ÒªÇó £º Á¼ºÃµÄÓÃ»§ÌåÑé
-        ¸üÈ«ÃæµÄ½»»¥¹¦ÄÜ
-	ºÜºÃµÄºÍºó¶Ë½øÐÐÊý¾Ý½»»¥
-        ÓÐÁ¼ºÃµÄ¿äÆ½Ì¨ÐÔ
-	ÓÐÒ»¶¨µÄÓÅ»¯
+è¦æ±‚ ï¼š è‰¯å¥½çš„ç”¨æˆ·ä½“éªŒ
+        æ›´å…¨é¢çš„äº¤äº’åŠŸèƒ½
+	å¾ˆå¥½çš„å’ŒåŽç«¯è¿›è¡Œæ•°æ®äº¤äº’
+        æœ‰è‰¯å¥½çš„å¤¸å¹³å°æ€§
+	æœ‰ä¸€å®šçš„ä¼˜åŒ–
 
-ºóÌ¨   ºó¶Ë   ·þÎñ¶Ë
+åŽå°   åŽç«¯   æœåŠ¡ç«¯
 
-¹¦ÄÜ £º Âß¼­´¦Àí
-        Ëã·¨ÊµÏÖ
-	´ÅÅÌ½»»¥£¨Êý¾Ý¿â  ¾²Ì¬ÎÄ¼þ´¦Àí£©
-ÒªÇó £º ½¡×³ÐÔ£¬°²È«ÐÔ
-        ²¢·¢ÐÔÄÜºÍ´¦ÀíËÙ¶È
-	¼Ü¹¹ºÏÀí±ãÓÚÎ¬»¤À©Õ¹
+åŠŸèƒ½ ï¼š é€»è¾‘å¤„ç†
+        ç®—æ³•å®žçŽ°
+	ç£ç›˜äº¤äº’ï¼ˆæ•°æ®åº“  é™æ€æ–‡ä»¶å¤„ç†ï¼‰
+è¦æ±‚ ï¼š å¥å£®æ€§ï¼Œå®‰å…¨æ€§
+        å¹¶å‘æ€§èƒ½å’Œå¤„ç†é€Ÿåº¦
+	æž¶æž„åˆç†ä¾¿äºŽç»´æŠ¤æ‰©å±•
 
-ÍøÕ¾ºó¶Ë
+ç½‘ç«™åŽç«¯
 
 httpserver  +  WebFrame
 
-µÚÈý°æ 
-   ¹¦ÄÜ £º 
-     httpserver£º
-       »ñÈ¡httpÇëÇó 
-       ½âÎöhttpÇëÇó
-       ½«ÇëÇó·¢ËÍ¸øWebFrame
-       ´ÓWebFrame½ÓÊÕ·´À¡Êý¾Ý
-       ½«Êý¾Ý×éÖ¯ÎªResponse¸ñÊ½·¢ËÍ¸ø¿Í»§¶Ë
+ç¬¬ä¸‰ç‰ˆ 
+   åŠŸèƒ½ ï¼š 
+     httpserverï¼š
+       èŽ·å–httpè¯·æ±‚ 
+       è§£æžhttpè¯·æ±‚
+       å°†è¯·æ±‚å‘é€ç»™WebFrame
+       ä»ŽWebFrameæŽ¥æ”¶åé¦ˆæ•°æ®
+       å°†æ•°æ®ç»„ç»‡ä¸ºResponseæ ¼å¼å‘é€ç»™å®¢æˆ·ç«¯
 
-     WebFrame£º
-       ´Óhttpserver½ÓÊÕ¾ßÌåÇëÇó
-       ¸ù¾ÝÇëÇó½øÐÐÂß¼­´¦ÀíºÍÊý¾Ý´¦Àí
-          * ¾²Ì¬Ò³Ãæ
-	  * Âß¼­Êý¾Ý
-       ½«ÐèÒªµÄÊý¾Ý·´À¡¸øhttpserver
+     WebFrameï¼š
+       ä»ŽhttpserveræŽ¥æ”¶å…·ä½“è¯·æ±‚
+       æ ¹æ®è¯·æ±‚è¿›è¡Œé€»è¾‘å¤„ç†å’Œæ•°æ®å¤„ç†
+          * é™æ€é¡µé¢
+	  * é€»è¾‘æ•°æ®
+       å°†éœ€è¦çš„æ•°æ®åé¦ˆç»™httpserver
 
-     Éý¼¶µã £º 1. ²ÉÓÃhttpserverºÍÓ¦ÓÃ´¦Àí·ÖÀëµÄÄ£Ê½
-               2. ½µµÍÁËñîºÏ¶È
-	       3. Ô­ÔòÉÏhttpserver¿ÉÒÔ´îÅäÈÎÒâµÄ   webFrame
+     å‡çº§ç‚¹ ï¼š 1. é‡‡ç”¨httpserverå’Œåº”ç”¨å¤„ç†åˆ†ç¦»çš„æ¨¡å¼
+               2. é™ä½Žäº†è€¦åˆåº¦
+	       3. åŽŸåˆ™ä¸Šhttpserverå¯ä»¥æ­é…ä»»æ„çš„   webFrame
 
-ÏîÄ¿½á¹¹£º  
-           |--httpserver --HttpServer.py (Ö÷³ÌÐò)    |             --settings (httpserverÅäÖÃ) |   
+é¡¹ç›®ç»“æž„ï¼š  
+           |--httpserver --HttpServer.py (ä¸»ç¨‹åº)    |             --settings (httpserveré…ç½®) |   
   project--|
            |
            |
-           |--WebFrame   --static £¨´æ·Å¾²Ì¬ÍøÒ³£©
-	                 --views.py £¨ Ó¦ÓÃ´¦Àí³ÌÐò£© 
-                         --urls.py £¨´æ·ÅÂ·ÓÉ£©
-			 --settings £¨¿ò¼ÜÅäÖÃ£©
-			 --WebFrame.py (Ö÷³ÌÐò´úÂë)
+           |--WebFrame   --static ï¼ˆå­˜æ”¾é™æ€ç½‘é¡µï¼‰
+	                 --views.py ï¼ˆ åº”ç”¨å¤„ç†ç¨‹åºï¼‰ 
+                         --urls.py ï¼ˆå­˜æ”¾è·¯ç”±ï¼‰
+			 --settings ï¼ˆæ¡†æž¶é…ç½®ï¼‰
+			 --WebFrame.py (ä¸»ç¨‹åºä»£ç )
