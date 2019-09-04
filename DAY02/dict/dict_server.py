@@ -23,7 +23,7 @@ ADDR = (HOST,PORT)
 def main():
     #创建数据库连接
     db = pymysql.connect\
-    ('localhost','root','123456','dict')
+    ('localhost','root','120913','dict')
 
     #创建套接字
     s = socket()
@@ -31,14 +31,14 @@ def main():
     s.bind(ADDR)
     s.listen(5)
 
-    #忽略子进程退出，防止僵尸进程,子进程结束时, 父进程会收到这个信号.
+    #忽略子进程信号
     signal.signal(signal.SIGCHLD,signal.SIG_IGN)
 
     while True:
         try:
             c,addr = s.accept()
             print("Connect from",addr)
-        except KeyboardInterrupt:                   ##ctrl c　客户端异常退出
+        except KeyboardInterrupt:
             s.close()
             sys.exit("服务器退出")
         except Exception as e:
@@ -48,10 +48,10 @@ def main():
         #创建子进程
         pid = os.fork()
         if pid == 0:
-            s.close()                                #子进程用来连接客户端．s套接字没用可以舍弃
+            s.close()
             do_child(c,db)
         else:
-            c.close()                                 #父进程或者创建连接失败继续等待新的连接
+            c.close()
             continue
 
 def do_child(c,db):
