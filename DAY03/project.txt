@@ -318,6 +318,11 @@ httpserver  +  WebFrame
 			             --settings （框架配置）
 			             --WebFrame.py (主程序代码)
 
+python 自带httpserver
+
+from http.sever import BaseHTTPRquestHandler,HTTPServer
+
+
 
 
 回顾：

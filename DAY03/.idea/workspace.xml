@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/project.txt" line="322" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1f71112f-f82a-4fc0-a043-59833578445a" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +19,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="project.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="project.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="341" column="29" lean-forward="false" selection-start-line="341" selection-start-column="29" selection-end-line="341" selection-end-column="29" />
+            <state relative-caret-position="221">
+              <caret line="318" column="43" lean-forward="false" selection-start-line="318" selection-start-column="43" selection-end-line="318" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -48,7 +51,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HTTPServer/WebFrame/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="18">
@@ -96,9 +99,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/debug.py" />
-        <option value="$PROJECT_DIR$/project.txt" />
         <option value="$PROJECT_DIR$/HTTPServer/HTTPServer/HttpServer.py" />
         <option value="$PROJECT_DIR$/HTTPServer/WebFrame/WebFrame.py" />
+        <option value="$PROJECT_DIR$/project.txt" />
       </list>
     </option>
   </component>
@@ -485,14 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="341" column="29" lean-forward="false" selection-start-line="341" selection-start-column="29" selection-end-line="341" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTTPServer/HTTPServer/setting.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -529,6 +524,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/HTTPServer/WebFrame/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HTTPServer/WebFrame/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -537,10 +540,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTTPServer/WebFrame/views.py">
+    <entry file="file://$PROJECT_DIR$/project.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="221">
+          <caret line="318" column="43" lean-forward="false" selection-start-line="318" selection-start-column="43" selection-end-line="318" selection-end-column="43" />
           <folding />
         </state>
       </provider>
