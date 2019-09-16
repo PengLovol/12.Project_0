@@ -26,7 +26,7 @@ def main():
 
     #创建套接字
     s=socket()
-    s.setsockopt(SOL_SOCKET, SO_REUSEADDR, 1)
+    s.setsockopt(SOL_SOCKET, SO_REUSEADDR, 1) #释放端口
     s.bind(ADDR)
     s.listen(5)
 

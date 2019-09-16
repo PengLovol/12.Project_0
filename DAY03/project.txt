@@ -233,7 +233,7 @@ PIP的使用
     升级软件包： pip3 install --upgrade [package]
 
     卸载软件包： sudo pip3  uninstall  [package]  
-        e.g.  sudo pip3 uninstall ssh
+               e.g.  sudo pip3 uninstall ssh
     
     导出软件包环境：pip3 freeze > requirements.txt
     
@@ -244,7 +244,7 @@ PDB调试方法
 
 import  pdb 
 
-功能 ： 断点设置，单步执行， 查看代码，查看函数，追         踪变量等
+功能 ： 断点设置，单步执行， 查看代码，查看函数，追踪变量等
     
 命令：
   b  break     设置断点
