@@ -31,7 +31,7 @@ class HTTPServer(object):
             print("Connect from",addr)
             handle_client = Thread\
             (target = self.handle_request,args = (connfd,))
-            handle_client.setDaemon(True)
+            handle_client.setDaemon(True)                     #主线程退出分支线程自动退出
             handle_client.start()
 
     def handle_request(self,connfd):
@@ -49,13 +49,13 @@ class HTTPServer(object):
             response_headlers = "HTTP/1.1 500 Server Error\r\n"
             response_headlers += '\r\n'
             response_body = "Server Error"
-            response = response_handlers + response_body
+            response = response_headlers + response_body
             connfd.send(response.encode())
             return
 
         #将请求发给frame得到返回数据结果
         status,response_body = \
-        self.send_request(env['METHOD'],env['PATH'])
+        self.send_request(env['METHOD'],env['PATH'])                     #GET /(内容)   GET:METHOD     /(内容):PATH
 
         #根据响应码组织响应头内容
         response_headlers = self.get_headlers(status)
@@ -65,7 +65,7 @@ class HTTPServer(object):
         connfd.send(response.encode())
         connfd.close()
 
-    #和frame 交互 发送request获取response
+    #和frame 交互 发送request获取response  ,作为客户端
     def send_request(self,method,path):
         s = socket()
         s.connect(frame_addr)

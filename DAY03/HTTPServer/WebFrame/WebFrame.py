@@ -24,9 +24,9 @@ class Application(object):
             print(method,path)
             if method == 'GET':
                 if path == '/' or path[-5:] =='.html':
-                    status,response_body = self.get_html(path)           
+                    status,response_body = self.get_html(path)         #处理静态网页请求
                 else:
-                    status,response_body = self.get_data(path)
+                    status,response_body = self.get_data(path)         #处理数据请求
 
                 #将结果给httpserver
                 connfd.send(status.encode())

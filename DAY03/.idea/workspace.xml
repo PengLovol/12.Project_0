@@ -10,16 +10,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/DAY03$HttpServer.coverage" NAME="HttpServer Coverage Results" MODIFIED="1568627269214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HTTPServer/HTTPServer" />
     <SUITE FILE_PATH="coverage/DAY03$debug.coverage" NAME="debug Coverage Results" MODIFIED="1568620320820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="project.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="project.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="310" column="15" lean-forward="false" selection-start-line="310" selection-start-column="15" selection-end-line="310" selection-end-column="15" />
+            <state relative-caret-position="329">
+              <caret line="341" column="29" lean-forward="false" selection-start-line="341" selection-start-column="29" selection-end-line="341" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -27,6 +28,60 @@
       </file>
       <file leaf-file-name="setting.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HTTPServer/HTTPServer/setting.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpServer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HTTPServer/HTTPServer/HttpServer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="65" column="22" lean-forward="true" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+              <folding>
+                <element signature="e#52#72#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HTTPServer/WebFrame/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HTTPServer/WebFrame/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebFrame.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HTTPServer/WebFrame/WebFrame.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="31" column="44" lean-forward="true" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+              <folding>
+                <element signature="e#16#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setting.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HTTPServer/WebFrame/setting.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -42,6 +97,8 @@
       <list>
         <option value="$PROJECT_DIR$/debug.py" />
         <option value="$PROJECT_DIR$/project.txt" />
+        <option value="$PROJECT_DIR$/HTTPServer/HTTPServer/HttpServer.py" />
+        <option value="$PROJECT_DIR$/HTTPServer/WebFrame/WebFrame.py" />
       </list>
     </option>
   </component>
@@ -142,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.debug">
+  <component name="RunManager" selected="Python.HttpServer">
     <configuration default="false" name="debug" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -157,6 +214,25 @@
       <module name="DAY03" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/debug.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="HttpServer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HTTPServer/HTTPServer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DAY03" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HTTPServer/HTTPServer/HttpServer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -305,12 +381,14 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Python.debug" />
+      <item index="1" class="java.lang.String" itemvalue="Python.HttpServer" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.debug" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.HttpServer" />
+        <item index="1" class="java.lang.String" itemvalue="Python.debug" />
       </list>
     </recent_temporary>
   </component>
@@ -399,30 +477,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTTPServer/WebFrame/setting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTTPServer/WebFrame/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTTPServer/WebFrame/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/debug.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -431,17 +485,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTTPServer/WebFrame/WebFrame.py">
+    <entry file="file://$PROJECT_DIR$/project.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding>
-            <element signature="e#16#36#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="329">
+          <caret line="341" column="29" lean-forward="false" selection-start-line="341" selection-start-column="29" selection-end-line="341" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HTTPServer/HTTPServer/setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTTPServer/WebFrame/setting.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -449,10 +509,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project.txt">
+    <entry file="file://$PROJECT_DIR$/HTTPServer/WebFrame/WebFrame.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="310" column="15" lean-forward="false" selection-start-line="310" selection-start-column="15" selection-end-line="310" selection-end-column="15" />
+        <state relative-caret-position="506">
+          <caret line="31" column="44" lean-forward="true" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+          <folding>
+            <element signature="e#16#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTTPServer/HTTPServer/HttpServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="65" column="22" lean-forward="true" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+          <folding>
+            <element signature="e#52#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTTPServer/WebFrame/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTTPServer/WebFrame/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
