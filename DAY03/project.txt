@@ -268,19 +268,19 @@ httpserver
 功能 ： 提供给用户直接使用
 
 要求 ： 良好的用户体验
-        更全面的交互功能
-	很好的和后端进行数据交互
-        有良好的夸平台性
-	有一定的优化
+       更全面的交互功能
+	   很好的和后端进行数据交互
+       有良好的夸平台性
+	   有一定的优化
 
 后台   后端   服务端
 
 功能 ： 逻辑处理
-        算法实现
-	磁盘交互（数据库  静态文件处理）
+       算法实现
+	   磁盘交互（数据库  静态文件处理）
 要求 ： 健壮性，安全性
-        并发性能和处理速度
-	架构合理便于维护扩展
+       并发性能和处理速度
+	   架构合理便于维护扩展
 
 网站后端
 
@@ -299,15 +299,15 @@ httpserver  +  WebFrame
        从httpserver接收具体请求
        根据请求进行逻辑处理和数据处理
           * 静态页面
-	  * 逻辑数据
-       将需要的数据反馈给httpserver
+	      * 逻辑数据
+          将需要的数据反馈给httpserver
 
      升级点 ： 1. 采用httpserver和应用处理分离的模式
-               2. 降低了耦合度
-	       3. 原则上httpserver可以搭配任意的   webFrame
+              2. 降低了耦合度
+	          3. 原则上httpserver可以搭配任意的   webFrame
 
 项目结构：  
-           |--httpserver --HttpServer.py (主程序)    |             --settings (httpserver配置) |   
+           |--httpserver --HttpServer.py (主程序)    |      --settings (httpserver配置) |
   project--|
            |
            |
@@ -316,3 +316,95 @@ httpserver  +  WebFrame
                          --urls.py （存放路由）
 			 --settings （框架配置）
 			 --WebFrame.py (主程序代码)
+
+
+
+回顾：
+http协议 ： 超文本传输协议，是一个应用层协议
+
+用途 ： 网页数据的传输
+        数据传输方法
+图片解释：http.png
+特点 ：
+1. 应用层协议，传输层使用tcp服务
+2. 简单，灵活，多种语言都有http相关操作接口
+3. 无状态的协议，即不记录用户传输的信息
+4. http1.1  支持持久连接
+
+一端通过http请求的格式发送具体请求内容，另一端接收http请求，按照协议格式解析。获取真实请求后按照http协议响应格式组织回复内容，回发给请求方，完成一次数据交互。
+
+http请求 （request）
+html格式：<h1>welcome to tedu</h1>
+请求格式：
+
+1)请求行  ： 具体的请求类别和请求内容
+    格式：  GET       /         HTTP/1.1
+          请求类别  请求内容    协议版本
+    请求类别 ： 表示请求的种类
+        GET      获取网络资源
+	    POST     提交一定的附加信息，得到返回结果
+	    HEAD     获取响应头
+	    PUT      更新服务器资源
+	    DELETE   删除服务器资源
+        CONNECT
+	    TRACE    用于测试
+	    OPTIONS  获取服务器性能信息
+
+2)请求头 ： 对请求内容的具体描述信息
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Cache-Control: max-age=0
+Connection: keep-alive
+
+3)空行
+4)请求体 ： 请求参数或者是提交内容
+
+
+http响应 （response）
+
+响应格式
+
+1)响应行  ： 反馈响应的情况
+    格式 ： HTTP/1.1    200     OK
+            协议版本   响应码  附加信息
+    响应码 ： 响应的具体情况
+              1xx ： 提示信息，表示请求成功
+	      2xx ： 响应成功
+	      3xx ： 响应需要重定向
+	      4xx ： 客户端错误
+	      5xx ： 服务端错误
+    常见响应码 ： 200  成功
+                  404  请求内容不存在
+		  401  没有访问权限
+		  500  服务器发生未知错误
+		  503  暂时无法执行
+
+2)响应头 ： 对响应内容的具体描述
+Connection: keep-alive
+Content-Encoding: gzip
+Content-Type: text/html
+Date: Thu, 06 Sep 2018 09:11:18 GMT
+
+3)空行
+4)响应体 ： 返回给请求端的具体内容
+
+
+
+HTTPServer  V2.0
+
+1. 接收客户端请求
+2. 解析客户端请求
+3. 组织数据，形成HTTP response
+4. 将数据发送给客户端
+
+升级
+1. 采用多线程并发接收多个客户端请求
+2. 基本的请求解析，根据请求返回相应的内容
+3. 除了可以请求静态网页，也可以请求简单的数据
+4. 将功能封装在一个类中
+
+技术点 ：
+1. socket  tcp 套接字
+2. http协议的请求响应格式
+3. 线程并发的创建方法
+4. 类的基本使用
